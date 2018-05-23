@@ -1,6 +1,6 @@
 # OpenGDPR Android Client
 
-This guide is intended for publishers who are interested in serving native ads, banner ads, MRect ads and fullscreen interstitials from PubNative using the MoPub and/or AdMob mediation network.
+OpenGDPR Android client is a module which will allow add developers to integrate the **OpenGDPR Api** as specified in their [homepage](https://www.opengdpr.org).
 
 ## Contents
 
