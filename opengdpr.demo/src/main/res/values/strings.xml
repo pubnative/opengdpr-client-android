@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">OpenGDPR Client</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="action_discovery">Discovery</string>
+    <string name="action_request">Request</string>
+    <string name="action_status">Status</string>
+    <string name="action_cancellation">Cancellation</string>
+    <string name="action_fetch_discovery_info">Fetch discovery info</string>
+
+    <string name="request_type">Request type:</string>
+    <string name="action_access_request">Access</string>
+    <string name="action_erasure_request">Erasure</string>
+    <string name="action_portability_request">Portability</string>
+
+    <string name="action_check_status">Check status</string>
+    <string name="action_cancel_request">Cancel request</string>
+</resources>
