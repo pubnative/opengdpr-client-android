@@ -6,7 +6,7 @@ public class OpenGDPREndpoints {
     private static final String SCHEME = "https";
     private static final String BASE_URL = "opengdpr-api.herokuapp.com";
     private static final String API_PATH = "api";
-    private static final String API_VERSION = "0.1.4";
+    private static final String API_VERSION = "1.0";
     private static final String DISCOVERY = "discovery";
     private static final String REQUESTS = "opengdpr_requests";
 
