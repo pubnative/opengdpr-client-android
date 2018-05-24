@@ -37,6 +37,31 @@ public class Crypto {
     }
 
     /**
+     * Encrypts the given input string using SHA-256 algorithm
+     *
+     * @param input String to be encrypted
+     * @return Encrypted string
+     */
+    public static String sha256(String input) {
+        String result = "";
+        if (!TextUtils.isEmpty(input)) {
+            StringBuilder stringBuilder = new StringBuilder();
+            try {
+                MessageDigest md = MessageDigest.getInstance("SHA-256");
+                md.update(input.getBytes());
+                byte[] bytes = md.digest();
+                for (byte byt : bytes) {
+                    stringBuilder.append(Integer.toString((byt & 0xff) + 0x100, 16).substring(1));
+                }
+                result = stringBuilder.toString().toLowerCase(Locale.US);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        return result;
+    }
+
+    /**
      * Encrypts the given input string using md5 algorithm
      *
      * @param input String to be encrypted

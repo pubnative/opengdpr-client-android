@@ -11,8 +11,6 @@ public class CancellationResponseModel extends JsonModel {
     @BindField
     private String received_time;
     @BindField
-    private String encoded_request;
-    @BindField
     private String subject_request_id;
     @BindField
     private String processor_signature;
@@ -40,14 +38,6 @@ public class CancellationResponseModel extends JsonModel {
 
     public void setReceivedTime(String receivedTime) {
         this.received_time = receivedTime;
-    }
-
-    public String getEncodedRequest() {
-        return encoded_request;
-    }
-
-    public void setEncodedRequest(String encodedRequest) {
-        this.encoded_request = encodedRequest;
     }
 
     public String getSubjectRequestId() {

@@ -54,6 +54,16 @@ public class RequestActivity extends AppCompatActivity {
         identity2.setIdentityFormat(IdentityFormat.MD5);
         identity2.setIdentityValue(Crypto.md5(mail));
 
+        RequestIdentityModel identity3 = new RequestIdentityModel();
+        identity3.setIdentityType(IdentityType.EMAIL);
+        identity3.setIdentityFormat(IdentityFormat.SHA256);
+        identity3.setIdentityValue(Crypto.sha256(mail));
+
+        RequestIdentityModel identity4 = new RequestIdentityModel();
+        identity4.setIdentityType(IdentityType.EMAIL);
+        identity4.setIdentityFormat(IdentityFormat.SHA1);
+        identity4.setIdentityValue(Crypto.sha1(mail));
+
         OpenGDPRRequest request = new OpenGDPRRequest();
         request.addIdentity(identity1);
         request.addIdentity(identity2);

@@ -172,7 +172,6 @@ Based to the OpenGDPR specification, a few features are still missing to be full
 
 * Cache the public key retrieved from the **Discover** endpoint.
 * Check the signature received on the response headers using the public key.
-* **SHA256** algorith on the **Crypto** class.
 * Cache the supported identity types retrieved from the **Discovery** endpoint to do a request validation before sending to the server.
 * Cache the supported request types retrieved from the **Discovery** endpoint to do a request validation before sending to the server.
 
