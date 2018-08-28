@@ -13,44 +13,44 @@
         android:id="@+id/button_discovery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/action_discovery"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/action_discovery" />
 
     <Button
         android:id="@+id/button_request"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/action_request"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/action_request" />
 
     <Button
         android:id="@+id/button_status"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/action_status"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/action_status" />
 
     <Button
         android:id="@+id/button_cancel"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="20dp"
         android:layout_marginEnd="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
-        android:text="@string/action_cancellation"/>
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/action_cancellation" />
 
 </LinearLayout>
