@@ -2,6 +2,8 @@
 
 OpenGDPR Android client is a module which will allow app developers to integrate the **OpenGDPR Api** as specified in their [homepage](https://www.opengdpr.org).
 
+Currently many partners implement their own ways to manage user consent and process the requests coming from data subjects themselves or from third-party vendors which share personal information about their users. **OpenGDPR Client** complies with the standard defined by **OpenGDPR** to have a common way to communicate between partners and therefore makes room for a seamless integration of new vendors.
+
 ## Contents
 
 * [Integration](#integration)
